@@ -1,0 +1,11 @@
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error h2 {
+    font-size: 100px;
+    text-shadow: 4px 4px 0 rgba(255,0,255,0.7),
+    -4px 4px 0 rgba(0,255,255,0.7);
+}

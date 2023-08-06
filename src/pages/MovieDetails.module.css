@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.col {
+    max-width: 400px;
+    height: auto;
+    height: 80%;
+    margin: 0 40px;
+    font-size: 1.2rem;
+}
+
+.movieImage {
+    border-radius: 20px;
+}
+

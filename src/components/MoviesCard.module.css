@@ -1,0 +1,37 @@
+.card {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.card:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.card img {
+    border-radius: 10px;
+    width: 230px;
+    height: 345px;
+}
+
+.card h2 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 650px) {
+    .card img {
+        width: 75%;
+        height: auto;
+    }
+}
+
+

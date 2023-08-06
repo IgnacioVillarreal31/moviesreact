@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h3{
+    font-size: 35px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+footer img {
+    width: 50px;
+    margin: 10px;
+}
+
+.icons{
+    margin-bottom: 10px;
+}
